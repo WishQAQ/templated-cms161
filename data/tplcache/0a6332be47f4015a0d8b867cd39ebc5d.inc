@@ -1,0 +1,1 @@
+<h2 class="tit">{dede:field name='typename'/}</h2>

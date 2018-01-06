@@ -1,0 +1,41 @@
+﻿<div class="header-bar-wrap">
+  <div class="header-bar clearfix">
+    <div class="item">
+      <div class="loginhand"> </div>
+    </div>
+  </div>
+</div>
+<div class="logo-box wrap">
+  <h1><a href="http://www.anluj.com/"><img id="logo" src="{dede:global.cfg_templets_skin/}/images/logo.png" alt="安鹭捷卫浴公司 " /></a></h1>
+  <div class="logo-phone">
+    <div class="h-contactIntrobox"><img src="{dede:global.cfg_templets_skin/}/images/logo_phone.png" /> <span style="font-family:'微软雅黑';font-size:17px;color:#008860;"><span style="color:#333333;">服务热线:</span> {dede:global.cfg_dianhua/}</span></div>
+  </div>
+</div>
+<div class="nav-wrapOut">
+  <div class="nav-wrapbox clearfix">
+    <div class="nav-wrap" id="J_nav-wrap">
+      <div class="nav"> 
+        <script type="text/javascript">
+      $(function(){
+      $("#J_navlist").CSMenu({maxWidth:920,navWrapId:"J_nav-wrap",arrowW:15,pushMenuDownBy:31,align:"center",isFloat:true});
+      })
+      </script>
+        <ul class="nav-list" id="J_navlist">
+          <li class="oncurr"> <a href="/">首页</a>
+            <ul class="nav-sub clearfix">
+            </ul>
+          </li>
+          {dede:channelartlist typeid='top'}
+          <li class=""> <a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a>
+            <ul class="nav-sub clearfix">
+              {dede:channel type='son' noself='yes'}
+              <li><a href="[field:typelink/]">[field:typename/]</a></li>
+              {/dede:channel}
+            </ul>
+          </li>
+          {/dede:channelartlist}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

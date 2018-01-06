@@ -1,0 +1,38 @@
+
+
+<div class="footer">
+  <div class="wrap">
+    <p align="center">
+    {dede:channel row='6' type ='top' }
+     <a href="[field:typelink/]">[field:typename/]</a> |
+     {/dede:channel}
+      </p>
+        
+    <p align="center"> {dede:global.cfg_dz/}</p>
+    <p align="center"> {dede:global.cfg_banquan/}</p>
+  </div>
+</div>
+<script type="text/javascript">
+      $(function(){
+      $("#J_kf-online1-wrap").kfonline1({
+      siteWidth:1000,//网站的基本宽度
+      distance:20,//在线客服距离（基本宽度）/+distance
+      selfWidth:126//在线客服的宽度
+      })
+      })
+      </script>
+<div class="kf-online1-wrap" id="J_kf-online1-wrap">
+  <div class="kf-online1-box"> <span class="kf-online1-arrow"></span>
+    <div class="kf-online1-bd">
+      <div class="hd">在线客服</div>
+      <div class="kf-online1-item"> <span class="tit">在线客服</span>
+        <ul class="kf-online1-list">
+          <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={dede:global.cfg_qq/}&site=qq&menu=yes" title="售前咨询"><img border="0" src="http://wpa.qq.com/pa?p=2:1244859253:51" alt="售前咨询" title="售前咨询"/></a></li>
+          <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={dede:global.cfg_qqq/}&site=qq&menu=yes" title="售后服务"><img border="0" src="http://wpa.qq.com/pa?p=2:2270766987:51" alt="售后服务" title="售后服务"/></a></li>
+        </ul>
+      </div>
+      <div class="hx-shadow1"><img src="{dede:global.cfg_templets_skin/}/images/hx_shadow.png" /></div>
+    </div>
+  </div>
+</div>
+</div>

@@ -1,0 +1,1 @@
+INSERT INTO `dede_guestbook` VALUES('3','无标题','0','1','1401257174','dede58.com','329435595@qq.com','329435595','','','127.0.0.1','1401257157','1','<div class=\'rebox\'>织梦源码www.dede58.com，制作精品织梦源码！！</div>\n<font color=\"red\">管理员回复：真的很好！！！</font>');

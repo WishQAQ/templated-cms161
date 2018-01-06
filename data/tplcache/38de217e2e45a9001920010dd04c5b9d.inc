@@ -1,0 +1,1 @@
+<p  class="sidebar-title">[field:typename /]</p>

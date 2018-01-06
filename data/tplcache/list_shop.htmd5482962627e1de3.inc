@@ -1,0 +1,48 @@
+<?php
+$z[0]=Array("field","",253,272);
+$z[0][4]['name']="title";
+$z[1]=Array("global","",273,299);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",340,369);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",409,467);
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("global","",521,553);
+$z[4][4]['name']="cfg_templets_skin";
+$z[5]=Array("global","",620,652);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("global","",719,751);
+$z[6][4]['name']="cfg_templets_skin";
+$z[7]=Array("global","",817,849);
+$z[7][4]['name']="cfg_templets_skin";
+$z[8]=Array("global","",910,942);
+$z[8][4]['name']="cfg_templets_skin";
+$z[9]=Array("global","",1016,1048);
+$z[9][4]['name']="cfg_templets_skin";
+$z[10]=Array("global","",1121,1153);
+$z[10][4]['name']="cfg_templets_skin";
+$z[11]=Array("global","",1223,1255);
+$z[11][4]['name']="cfg_templets_skin";
+$z[12]=Array("include","",1340,1375);
+$z[12][4]['filename']="head.htm";
+$z[13]=Array("global","",1561,1593);
+$z[13][4]['name']="cfg_templets_skin";
+$z[14]=Array("type","<p  class=\"sidebar-title\">[field:typename /]</p>",1876,1958);
+$z[14][4]['typeid']="2";
+$z[15]=Array("channel","\r\n          <li ><a  href=\"[field:typeurl/]\">[field:typename/]</a></li>\r\n          ",2047,2294);
+$z[15][4]['type']="son";
+$z[15][4]['currentstyle']="<li class='oncurr sidebar-notSub'><a href='~typelink~' class='thisclass'>~typename~</a></li>";
+$z[16]=Array("field","",2696,2725);
+$z[16][4]['name']="typename";
+$z[17]=Array("field","",2805,2834);
+$z[17][4]['name']="position";
+$z[18]=Array("list","\r\n              <li>\r\n                <div  class=\"product-list-div\">\r\n                  <div  class=\"product-list-img\"><a  href=\"[field:arcurl/]\"  title=\"[field:title/]\"><img  src=\"[field:picname/]\"  alt=\"[field:title/]\"   style=\"width: 200px; height: 120px; padding: 9px 15px;\"></a></div>\r\n                  <div  class=\"product-list-url\"><a  href=\"[field:arcurl/]\"  title=\"[field:title/]\">[field:title/]...</a></div>\r\n                </div>\r\n              </li>\r\n              ",2996,3512);
+$z[18][4]['pagesize']="9";
+$z[19]=Array("pagelist","",3649,3705);
+$z[19][4]['listitem']="pre,next,pageno";
+$z[19][4]['listsize']="4";
+$z[20]=Array("include","",3850,3887);
+$z[20][4]['filename']="footer.htm";
+
+?>

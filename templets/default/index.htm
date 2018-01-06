@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link type="text/css" rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/global.css" />
+<link type="text/css" rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/probuy.css" />
+<link type="text/css" rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/style.css" />
+<link type="text/css" rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/easyDialog.css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/template-global.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/ShoppingCart.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/base.js"></script>
+</head>
+<body id="body" >
+<div id="Layout_328"  class="">
+{dede:include filename="head.htm"/}
+<div>
+  <ul id="J_bslist" class="bs_list">
+    <li style="background:url({dede:global.cfg_templets_skin/}/images/6352384878864786197221.jpg) no-repeat  top center"><a href="/"></a></li>
+    <li style="background:url({dede:global.cfg_templets_skin/}/images/6352384879916228045019.jpg) no-repeat  top center"><a href="/"></a></li>
+  </ul>
+  <script type="text/javascript">
+      $(function(){
+      //$(".two-wei").ewm()
+      //$("#navigation").Smartmenu();
+      $("#J_bslist").bannerSlider({
+      width:"100%",
+      height:525,
+      Time:2000,
+      effect:"fade",
+      pagination:{
+      show:true //是否件事小圆圈
+      },
+      auto:true,
+      dirBtn:{
+      show:true,//是否显示左右按钮
+      active:true //显示的时候如果active为true 那么鼠标移动上去会有显示 移开辉影藏
+      }
+      })
+
+      })
+      </script> 
+</div>
+<div class="wrap clearfix">
+  <div id="Panel_820"  class="panel-h-box" style="margin-top:10px;clear:both;overflow:hidden;">
+    <div class="index-product">
+      <ul class="index-product-list clearfix">
+      
+      {dede:arclist row=4 imgwidth='210' imgheight='127' type='image.' typeid='2'}
+        <li>
+          <div><a href="[field:arcurl/]" title="[field:title/]">[field:image/]</a></div>
+          <a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></li>
+        {/dede:arclist}
+        
+      </ul>
+      <script type="text/javascript">
+      $(function(){
+      $('.index-product-list li').hover(function(){$(this).addClass('hover')},function(){$(this).removeClass('hover')})
+      })
+      </script> 
+    </div>
+  </div>
+  
+  {dede:channelartlist  row='1' type='top'}
+  <div id="Panel_771"  class="panel-h-box" style="margin-top:20px;margin-right:20px;width:320px;float:left;overflow:hidden;">
+    <div class="index-hd1">
+      <h2 class="tit">{dede:field name='typename'/}</h2>
+      <a class="more fr" href="{dede:field name='typeurl'/}">more</a> </div>
+    <div class="panel-h-bdbox">
+      <div class="h-contactIntrobox"><img src="{dede:global.cfg_templets_skin/}/images/index_16.jpg" style="float:left;margin-right:15px;" />
+        <p> {dede:myad name='dddd'/} </p>
+      </div>
+    </div>
+  </div>
+    {/dede:channelartlist}
+    
+    {dede:channelartlist row='1' typeid='6' type='top'}
+  <div id="Panel_910"  class="panel-h-box" style="margin-top:20px;margin-right:20px;margin-left:20px;width:320px;float:left;overflow:hidden;">
+    <div class="index-hd1">
+      <h2 class="tit">{dede:field name='typename'/}</h2>
+      <a class="more fr" href="{dede:field name='typeurl'/}">more</a> </div>
+    <div class="panel-h-bdbox">
+      <ul class="index-news-list clearfix">
+      {dede:arclist titlelen='60' row='6' typeid='6'}
+        <li><a href="[field:arcurl /]" title="[field:title /]">[field:title /]</a><span>[[field:pubdate function="MyDate('y-m-d',@me)"/]]</span></li>
+        {/dede:arclist}
+      </ul>
+    </div>
+  </div>
+  {/dede:channelartlist}
+  
+  <div id="Panel_907"  class="panel-h-box" style="margin-top:20px;margin-left:20px;width:278px;float:left;overflow:hidden;">
+  
+  {dede:channelartlist row='1' typeid='10' type='top'}
+    <div class="index-hd1">
+      <h2 class="tit">{dede:field name='typename'/}</h2>
+    </div>
+    {/dede:channelartlist}
+    
+    <div class="panel-h-bdbox">
+      <div class="h-contactusbox">
+        <div class="h-contactIntrobox"><img src="{dede:global.cfg_templets_skin/}/images/pic001.png" height="73" width="255" />
+          <p>{dede:global.cfg_chuanzhen/}</p>
+          <p> {dede:global.cfg_youxiang/}</p>
+          <p>{dede:global.cfg_dizhi/}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div id="Panel_868"  class="friendlink" style="clear:both;overflow:hidden;"> <span class="tit">友情链接</span>
+  <div class="bd clearfix"> 
+   {dede:flink  row='10' type='text'}
+  [field:link /]
+  {/dede:flink}
+     </div>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

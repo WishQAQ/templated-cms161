@@ -1,0 +1,45 @@
+<?php
+$z[0]=Array("field","",253,272);
+$z[0][4]['name']="title";
+$z[1]=Array("global","",273,299);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",340,369);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",409,467);
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("global","",521,553);
+$z[4][4]['name']="cfg_templets_skin";
+$z[5]=Array("global","",620,652);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("global","",719,751);
+$z[6][4]['name']="cfg_templets_skin";
+$z[7]=Array("global","",817,849);
+$z[7][4]['name']="cfg_templets_skin";
+$z[8]=Array("global","",910,942);
+$z[8][4]['name']="cfg_templets_skin";
+$z[9]=Array("global","",1016,1048);
+$z[9][4]['name']="cfg_templets_skin";
+$z[10]=Array("global","",1121,1153);
+$z[10][4]['name']="cfg_templets_skin";
+$z[11]=Array("global","",1223,1255);
+$z[11][4]['name']="cfg_templets_skin";
+$z[12]=Array("include","",1341,1376);
+$z[12][4]['filename']="head.htm";
+$z[13]=Array("global","",1562,1594);
+$z[13][4]['name']="cfg_templets_skin";
+$z[14]=Array("type","<p  class=\"sidebar-title\">[field:typename /]</p>",1877,1960);
+$z[14][4]['typeid']="10";
+$z[15]=Array("channel","\r\n          <li><a  href=\"[field:typeurl/]\">[field:typename/]</a></li>\r\n         ",2033,2298);
+$z[15][4]['type']="son";
+$z[15][4]['currentstyle']="<li class='oncurr sidebar-notSub'><a href='~typelink~' class='thisclass'>~typename~</a></li>";
+$z[16]=Array("field","",2683,2712);
+$z[16][4]['name']="typename";
+$z[17]=Array("field","",2790,2819);
+$z[17][4]['name']="position";
+$z[18]=Array("field","",2946,2967);
+$z[18][4]['name']="content";
+$z[19]=Array("include","",3043,3080);
+$z[19][4]['filename']="footer.htm";
+
+?>
